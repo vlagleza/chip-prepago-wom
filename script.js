@@ -22,6 +22,14 @@ const stepData = {
     "Nous vous suggérons d’avoir votre pièce d’identité ou passeport valide à portée de main et de suivre les étapes pour activer votre numéro.",
     "Une fois le processus terminé, activez puis désactivez le mode avion.",
     "Enfin, vous recevrez un SMS de confirmation de l’activation de votre service."
+  ],
+  pr: [
+    "Insira o chip (SIM) no seu telefone."
+    "Ligue para 103 e digite seu número de identificação (RUT) ou passaporte."
+    "Você receberá um SMS com os passos a seguir."
+    "Sugerimos que tenha em mãos sua carteira de identidade ou passaporte válido e siga os passos para ativar seu número."
+    "Assim que o processo for concluído, ative e desative o modo avião."
+    "Por fim, você receberá um SMS de confirmação com a ativação do seu serviço."
   ]
 };
 
@@ -29,14 +37,14 @@ const headerTextMap = {
   es: "Si tienes una SimCard o un Chip prepago WOM y quieres activarlo de forma correcta y segura, recuerda que a contar del 4 de febrero de 2025, actualizamos el procedimiento de activación de simcards en WOM.",
   en: "If you have a WOM prepaid SIM card and want to activate it correctly and safely, remember that starting February 4, 2025, we’ve updated the SIM activation procedure at WOM.",
   fr: "Si vous avez une carte SIM prépayée WOM et que vous souhaitez l’activer correctement et en toute sécurité, rappelez-vous qu’à partir du 4 février 2025, nous avons mis à jour la procédure d’activation des cartes SIM chez WOM.",
-  it: "Se hai una SIM prepagata WOM e desideri attivarla correttamente e in modo sicuro, ricorda che a partire dal 4 febbraio 2025 abbiamo aggiornato la procedura di attivazione delle SIM presso WOM."
+  pr: "Se você tem um SimCard ou um chip pré-pago WOM e deseja ativá-lo de forma correta e segura, lembre-se que a partir de 4 de fevereiro de 2025, atualizaremos o procedimento de ativação de simcards na WOM."
 };
 
 const titleMap = {
   es: "¿Cómo activar mi chip prepago?",
   en: "How to activate my prepaid SIM?",
   fr: "Comment activer ma carte SIM prépayée ?",
-  it: "Come attivare la mia SIM prepagata?"
+  pr: "Como ativar meu chip pré-pago?"
 };
 
 function changeLanguage(lang) {
